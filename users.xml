@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?> 
+
+<korisnici>
+
+    <korisnik>
+        <korisnicko_ime>Petar_peric</korisnicko_ime>
+        <lozinka>12345</lozinka>
+    </korisnik>
+
+    <korisnik>
+        <korisnicko_ime>Ana_anic</korisnicko_ime>
+        <lozinka>12345</lozinka>
+    </korisnik>
+
+    <korisnik>
+        <korisnicko_ime>Marko_maric</korisnicko_ime>
+        <lozinka>12345</lozinka>
+    </korisnik>
+
+</korisnici>

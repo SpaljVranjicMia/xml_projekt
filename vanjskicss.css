@@ -1,0 +1,79 @@
+header.zaglavlje{padding-left: 10px;}
+nav{padding: 10px 0;}
+nav li{list-style-type: none;}
+footer.podnozje{text-align: center;}
+.zaglavlje img{width: 100px; height: 100px; margin-left: 230px;}
+@font-face{font-family: myFirstFont; src: url(PhillySans.otf);}
+p.naslov{font-family: myFirstFont; font-size: 120px; text-transform:uppercase; color: black; text-align: center; margin-bottom: -115px; margin-top: -20px;}
+footer.podnozje{padding-left: 10px;}
+div.povijest{padding-left: 10px; width: 600px; margin-top: -525px;}
+div.povijest2{width: 600px; margin-left: 750px; margin-top: -360px;}
+div.stilovi{padding-left: 10px;}
+.povijest h1{font-family: myFirstFont; font-size: 55px;}
+img{width:500px; margin-left: 800px; margin-top: 25px;}
+#povijest2{width:500px; margin-left: auto;}
+.stilovi h1{font-family: myFirstFont; font-size: 55px;}
+a:link{color: black; font-size: 18px; padding-left: 10px; text-decoration: none;}
+a:visited{color: blueviolet; font-size: 18px; padding-left: 10px;}
+a:hover{color:blue; font-size: 18px; padding-left: 10px;}
+a:active{color: green; font-size: 18px; padding-left: 10px;}
+#mosdef{width: 500px; margin-right:auto; margin-left: 500px;}
+#mobbdeep{width: 500px; margin-right:auto; margin-left: 500px;}
+#publicenemy{width: 500px; margin-right:auto; margin-left: 500px;}
+#theeastsideboyz{width: 500px; margin-right:auto; margin-left: 500px;}
+#tupac{width: 500px; margin-right:auto; margin-left: 500px;}
+#beastieboys{width: 500px; margin-right:auto; margin-left: 500px;}
+#asaprocky{width: 500px; margin-right:auto; margin-left: 500px;}
+#wakaflockaflame{width: 500px; margin-right:auto; margin-left: 500px;}
+@font-face{font-family: mojFont; src: url(atlandsketchesbb_reg.ttf);}
+.stilovi h2{font-family: mojFont; font-size: 50px;}
+.sidriste{text-align: center;}
+.sidriste2{text-align: center;}
+table{padding: 10px; margin-left: auto; margin-right: auto; width: 500px;}
+form{padding-left: 20px;}
+
+
+section{text-align: center;}
+.clanak1{position: absolute; width: 400px; margin-top: 50px; margin-left: 100px; line-height: 2em;}
+.slika1{position: relative; left: -300px;}
+.onama{text-align: center; padding: 20px 0;}
+.opcenito{padding-bottom: 50px;}
+.slika2{position: relative; right: 850px;}
+.clanak2{position: absolute; width: 400px; margin-top: 50px; margin-left: 100px; line-height: 2em; left: 550px; top: 870px;}
+.sadrzaj{padding-top: 70px; padding-bottom: 30px;}
+aside{max-width: 100px; position: fixed; left: 500px; top: 270px;}
+.ikone{max-width: 60px;}
+.novosti{text-align: center; margin-bottom: 30px;}
+.slike_novosti{max-width: 100%; margin-left: auto; margin-bottom: 20px;}
+.kategorije{float: right;}
+.kategorije a{display: block;}
+
+
+.iframe{text-align: center;}
+i{padding: 0px 30px;}
+.centrirano{text-align: center;}
+h1{font-family: 'Montserrat', sans-serif;}
+p{font-family: 'Raleway', sans-serif;}
+
+
+.trgovina{font-family: 'Raleway', sans-serif;}
+#kosarica{border-style: solid; border-radius: 15%; padding-right: 10px; padding: 10px; text-align: justify;}
+#kosarica:hover{color: white; background-color: black;  transition: 2s linear; text-decoration: none;}
+.snizenje{text-decoration: line-through;}
+.nasnizenju{font-weight: 800;}
+.banner{background-image: url(images/banner.jpeg); background-repeat: no-repeat; background-size: 100%; height: 500px; display: flex; justify-content: center; align-items: center;}
+
+.skewy{transform: skewY(-8deg); background-color: white; width: 50%; color: black; font-size: 25px; height: 80px; margin: 0 20%; padding: 50px; display: flex; justify-content: center; align-items: center;}
+.tekst{font-weight: 700;}
+.prvidiv{display: flex; justify-content: space-around; align-items: center; margin: 20px;}
+.drugidiv{display: flex; justify-content: space-around; align-items: center; margin: 20px;}
+.trecidiv{display: flex; justify-content: space-around; align-items: center; margin: 20px;}
+.prodaja{width: 200px; margin-left: 0;}
+.flex-tekst{width: 400px;}
+.naslovi{width: 400px;}
+@media(max-width: 768px){
+    .prvidiv{flex-wrap: wrap;}
+    .drugidiv{flex-wrap: wrap;}
+    .trecidiv{flex-wrap: wrap;}
+    .banner{flex-wrap: wrap;}
+}
